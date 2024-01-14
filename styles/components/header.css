@@ -1,0 +1,130 @@
+.header_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--clr-5);
+}
+.header_time {
+  font-weight: 500;
+}
+.header_time-box {
+  background-color: var(--clr-0);
+  padding: 0.5em;
+  border-radius: 20px;
+}
+.fa-hands-praying {
+  font-size: var(--size-lg);
+  padding-right: var(--size-xs);
+}
+.header_two-box {
+  background-color: var(--clr-1);
+}
+.header_two {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  align-items: flex-start;
+  background-color: var(--clr-1);
+}
+
+.logo {
+  width: 18rem;
+  height: 6rem;
+}
+.header_menu {
+  display: flex;
+}
+.sidemenu {
+  display: none;
+}
+
+.header_bar-box {
+  position: absolute;
+  align-self: center;
+  right: 5%;
+}
+.fa-bars {
+  font-size: var(--size-2xl);
+  display: block;
+}
+/* xs */
+/* @media (min-width: 475px) {}  */
+/* sm */
+/* @media (min-width: 640px) {} */
+/* md */
+@media (min-width: 768px) {
+  .header_time {
+    font-size: var(--size-lg);
+    font-weight: 500;
+  }
+  .logo {
+    width: 18rem;
+    height: 6rem;
+  }
+  .header_bar-box {
+    display: none;
+  }
+  .sidemenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 7em;
+    gap: 1rem;
+  }
+  .header_link {
+    position: relative;
+    font-size: var(--size-sm);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-5);
+    letter-spacing: -0.05em;
+  }
+  .header_link:hover {
+    color: var(--clr-2);
+  }
+  .header_link::after {
+    content: "";
+    position: absolute;
+    background-color: var(--clr-2);
+    height: 0.3em;
+    width: 0;
+    left: 0;
+    bottom: -0.5em;
+    border-radius: 10em;
+    transition: 0.3s;
+  }
+  .header_link:hover::after {
+    width: 100%;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .header_time {
+    font-size: var(--size-xl);
+  }
+  .sidemenu {
+    padding-left: 16em;
+    gap: 2rem;
+  }
+  .header_link {
+    font-size: var(--size-base);
+  }
+}
+/* xl */
+@media (min-width: 1280px) {
+  .sidemenu {
+    padding-left: 27em;
+    gap: 2rem;
+  }
+}
+/* xxl */
+@media (min-width: 1536px) {
+  .sidemenu {
+    padding-left: 43em;
+    gap: 2rem;
+  }
+}
