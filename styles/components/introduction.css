@@ -61,6 +61,10 @@
 }
 .omm_img {
   width: 4rem;
+  transition: transform 0.3s;
+}
+.omm_img:hover {
+  transform: translateY(-1rem);
 }
 
 /* xs */
@@ -70,8 +74,7 @@
 /* md */
 @media (min-width: 768px) {
   .intro_box {
-    margin: 3rem;
-    border-radius: rem;
+    margin: 3rem 1.5rem;
   }
   .intro_col-2 {
     margin: 1rem;
@@ -90,9 +93,15 @@
     margin: 2rem 0.5rem;
     border-radius: 1rem;
   }
+  .omm_img {
+    width: 5rem;
+  }
 }
 /* lg */
 @media (min-width: 1024px) {
+  .intro_box {
+    margin: 3rem 2rem;
+  }
   .headline_img {
     width: 27rem;
   }
@@ -103,11 +112,17 @@
 }
 /* xl */
 @media (min-width: 1280px) {
+  .intro_box {
+    margin: 3rem 2.5rem;
+  }
   .headline_img {
     width: 30rem;
   }
   .intro_col-2 {
     padding: 0rem 1rem 10rem 1rem;
+  }
+  .omm_img {
+    width: 6rem;
   }
 }
 /* xxl */
