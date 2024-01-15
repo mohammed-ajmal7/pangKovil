@@ -1,15 +1,26 @@
-.intro_main-headline {
-  text-align: start;
-  font-weight: 600;
-}
 .intro_box {
+  background-color: var(--clr-dark-red);
+  margin: 2rem 0;
+}
+.intro_box-mini {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--clr-1);
-  margin-top: 2rem;
-  color: var(--clr-5);
+  color: var(--clr-white);
+}
+.headline_imgages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.headline_img {
+  width: 19rem;
+}
+.headline_low-border {
+  width: 10rem;
+  max-height: 2.5rem;
 }
 .intro_col-1 {
   margin: 1rem 0.5rem;
@@ -19,16 +30,37 @@
 }
 .intro_col-2 {
   align-self: start;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0rem 1rem 1rem 1rem;
+  margin: 1rem 0;
+  background-image: url(../../images/murugan2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .intro_headline {
   font-size: var(--size-lg);
   font-weight: 500;
   margin: 1rem 0;
-  color: var(--clr-0);
+  color: var(--clr-white);
+}
+.intro_headline span {
+  color: var(--clr-dark-yellow);
 }
 .intro_para {
   line-height: 1.5rem;
+}
+.intro_read-btn {
+  margin: 1rem 0;
+}
+.omm_img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.omm_img {
+  width: 4rem;
 }
 
 /* xs */
@@ -37,10 +69,46 @@
 /* @media (min-width: 640px) {} */
 /* md */
 @media (min-width: 768px) {
+  .intro_box {
+    margin: 3rem;
+    border-radius: rem;
+  }
+  .intro_col-2 {
+    margin: 1rem;
+  }
+  .headline_img {
+    width: 22rem;
+  }
+  .headline_low-border {
+    width: 14rem;
+    max-height: 3.5rem;
+  }
+  .intro_box-mini {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 2rem 0.5rem;
+    border-radius: 1rem;
+  }
 }
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .headline_img {
+    width: 27rem;
+  }
+  .headline_low-border {
+    width: 16rem;
+    max-height: 4rem;
+  }
+}
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+  .headline_img {
+    width: 30rem;
+  }
+  .intro_col-2 {
+    padding: 0rem 1rem 10rem 1rem;
+  }
+}
 /* xxl */
 /* @media (min-width: 1536px) {} */

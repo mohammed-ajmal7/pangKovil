@@ -4,13 +4,13 @@
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: var(--clr-5);
+  color: var(--clr-white);
 }
 .header_time {
   font-weight: 500;
 }
 .header_time-box {
-  background-color: var(--clr-0);
+  background-color: var(--clr-dark-orange);
   padding: 0.5em;
   border-radius: 20px;
 }
@@ -19,7 +19,7 @@
   padding-right: var(--size-xs);
 }
 .header_two-box {
-  background-color: var(--clr-1);
+  background-color: var(--clr-dark-red);
 }
 .header_two {
   position: relative;
@@ -28,7 +28,7 @@
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   align-items: flex-start;
-  background-color: var(--clr-1);
+  background-color: var(--clr-dark-red);
 }
 
 .logo {
@@ -80,7 +80,7 @@
     font-size: var(--size-sm);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-5);
+    color: var(--clr-white);
     letter-spacing: -0.05em;
   }
   .header_link:hover {
