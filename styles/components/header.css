@@ -84,12 +84,12 @@
     letter-spacing: -0.05em;
   }
   .header_link:hover {
-    color: var(--clr-2);
+    color: var(--clr-dark-yellow);
   }
   .header_link::after {
     content: "";
     position: absolute;
-    background-color: var(--clr-2);
+    background-color: var(--clr-dark-yellow);
     height: 0.3em;
     width: 0;
     left: 0;
