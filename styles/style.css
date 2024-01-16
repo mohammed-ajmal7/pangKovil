@@ -9,6 +9,7 @@
   --clr-deep-dark-yellow: #f0b40f;
   --clr-cyan-green: #07ab93;
   --clr-dark-cyan-green: #06937e;
+  --clr-light-beige: #b3b3b3;
   --clr-white: #ffffff;
   --clr-black: #000000;
   --clr-grey: #808080;
@@ -44,8 +45,12 @@ html {
 
 body {
   font-family: "General Sans", sans-serif;
-  background-color: var(--clr-5);
-  color: var(--clr-9);
+  background-color: var(--clr-light-beige);
+  /* background-image: url(../images/murugan2.png);
+  background-size: 50%;
+  background-repeat: repeat-y;
+  background-position: center; */
+  color: var(--clr-white);
 }
 
 img,

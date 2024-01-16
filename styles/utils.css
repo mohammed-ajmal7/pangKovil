@@ -30,17 +30,13 @@
     0 10px 10px rgba(160, 40, 0, 0.22), 0 0 120px -10px var(--clr-dark-orange);
 }
 
-.section {
-  margin-top: 5rem;
-}
-
 .container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 /* xs */
