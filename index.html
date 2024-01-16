@@ -1,169 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Malayalam:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/62713cab29.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Pang Kovil</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Malayalam:wght@100..900&display=swap"
-    rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/62713cab29.js" crossorigin="anonymous"></script>
-  <title>Pang Kovil</title>
-</head>
-
-<body>
-  <div class="head_box">
-    <div class="header_one container">
-      <div class="header_time-box">
-        <p class="header_time">
-          <i class="fa-solid fa-hands-praying fa-beat" style="color: #ffd43b"></i>Darshan Timing : 6:00 am to 10:00 am &
-          4:30 pm to 7:00 pm
-        </p>
-      </div>
-    </div>
-    <div class="header_two-box">
-      <div class="header_two container">
-        <nav class="header_menu">
-          <div id="logo_box">
-            <img src="images/logo.png" class="logo" />
-          </div>
-          <ul class="sidemenu">
-            <li><a class="header_link" href="#logo_box">HOME</a></li>
-            <li><a class="header_link" href="#events">EVENT</a></li>
-            <li><a class="header_link" href="#about">ABOUT</a></li>
-            <li><a class="header_link" href="#portfolio">BOOKING</a></li>
-            <li><a class="header_link" href="#contact">CONTACT</a></li>
-          </ul>
-          <button class="header_bar-box">
-            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
-          </button>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <div class="intro_box">
-    <div class="headline_images container">
-      <img class="headline_img container" src="images/kovilname.png" alt="headline" />
-      <img class="headline_low-border container" src="images/low border.png" alt="low border" />
-    </div>
-    <div class="intro_box-mini">
-      <div class="intro_col-1 container">
-        <img class="intro_img" src="images/kovil10.jpg" alt="kovil image" />
-      </div>
-      <div class="intro_col-2 container">
-        <p class="intro_headline"><span>PANG</span> SUBRAMANYA KOVIL</p>
-        <p class="intro_para">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s
-          with the release of Letraset sheets containing Lorem Ipsum passages,
-          and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
-        </p>
-        <button class="intro_read-btn btn">Read More</button>
-      </div>
-    </div>
-  </div>
-  <div class="omm_img-box container">
-    <div class="omm_img">
-      <img src="images/Omm.png" alt="omm pictur" />
-    </div>
-  </div>
-  <div id="events">
-    <div class="headline_event-box">
-      <div class="headline_events">
-        <p class="heading_events"><span>E</span>VENTS</p>
-      </div>
-      <div class="headline_border_events">
-        <img class="headline_events_low-border container" src="images/low border.png" alt="low border" />
-      </div>
-    </div>
-    <!-- Slideshow container -->
-    <div class="slideshow-container container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 5</div>
-        <img src="images/Thalam.jpg" style="width: 100%" />
-        <div class="text">Caption Text</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 5</div>
-        <img src="images/melam2.jpg" style="width: 100%" />
-        <div class="text">Caption Two</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 5</div>
-        <img src="images/Andiyooot.jpg" style="width: 100%" />
-        <div class="text">Caption Three</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">4 / 5</div>
-        <img src="images/SwamyBiksha.jpg" style="width: 100%" />
-        <div class="text">Caption Four</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">5 / 5</div>
-        <img src="images/Thodipooja.jpg" style="width: 100%" />
-        <div class="text">Caption Four</div>
-      </div>
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-  </div>
-  <div class="omm_img-box container">
-    <div class="omm_img">
-      <img src="images/Omm.png" alt="omm pictur" />
-    </div>
-  </div>
-
-  <div id="deities">
-    <div class="headline_deities-box">
-      <div class="headline_deities">
-        <p class="heading_deities"><span>SUB </span>DEITIES</p>
-      </div>
-      <div class="headline_border_deities">
-        <img class="headline_deities_low-border container" src="images/low border.png" alt="low border" />
-      </div>
-    </div>
-    <div class="deities_out-box container">
-      <div class="deities_in-box">
-        <div class="god_box">
-          <img src="images/karuppaswamy.jpg">
-          <div class="layer">
-            <h3>Karuppa<br>Swamy</h3>
-            <p></p>
-          </div>
+  <body>
+    <div class="head_box">
+      <div class="header_one container">
+        <div class="header_time-box">
+          <p class="header_time">
+            <i
+              class="fa-solid fa-hands-praying fa-beat"
+              style="color: #ffd43b"
+            ></i
+            >Darshan Timing : 6:00 am to 10:00 am & 4:30 pm to 7:00 pm
+          </p>
         </div>
-        <div class="god_box">
-          <img src="images/maduraveeraswamy.jpg">
-          <div class="layer">
-            <h3>Maduraveera<br>Swamy</h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="god_box">
-          <img src="images/bhagavathy.jpg">
-          <div class="layer">
-            <h3>Bhagavathy</h3>
-            <p></p>
-          </div>
+      </div>
+      <div class="header_two-box">
+        <div class="header_two container">
+          <nav class="header_menu">
+            <div id="logo_box">
+              <img src="images/logo.png" class="logo" />
+            </div>
+            <ul class="sidemenu">
+              <li><a class="header_link" href="#logo_box">HOME</a></li>
+              <li><a class="header_link" href="#events">EVENT</a></li>
+              <li><a class="header_link" href="#about">ABOUT</a></li>
+              <li><a class="header_link" href="#booking">BOOKING</a></li>
+              <li><a class="header_link" href="#contact">CONTACT</a></li>
+            </ul>
+            <button class="header_bar-box">
+              <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+            </button>
+          </nav>
         </div>
       </div>
     </div>
+    <div class="intro_box">
+      <div class="headline_images container">
+        <img
+          class="headline_img container"
+          src="images/kovilname.png"
+          alt="headline"
+        />
+        <img
+          class="headline_low-border container"
+          src="images/low border.png"
+          alt="low border"
+        />
+      </div>
+      <div class="intro_box-mini">
+        <div class="intro_col-1 container">
+          <img class="intro_img" src="images/kovil10.jpg" alt="kovil image" />
+        </div>
+        <div class="intro_col-2 container">
+          <p class="intro_headline"><span>PANG</span> SUBRAMANYA KOVIL</p>
+          <p class="intro_para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <button class="intro_read-btn btn">Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="omm_img-box container">
+      <div class="omm_img">
+        <img src="images/Omm.png" alt="omm picture" />
+      </div>
+    </div>
+    <div id="events">
+      <div class="headline_event-box">
+        <div class="headline_events">
+          <p class="heading_events"><span>E</span>VENTS</p>
+        </div>
+        <div class="headline_border_events">
+          <img
+            class="headline_events_low-border container"
+            src="images/low border.png"
+            alt="low border"
+          />
+        </div>
+      </div>
+      <!-- Slideshow container -->
+      <div class="slideshow-container container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="images/Thalam.jpg" style="width: 100%" />
+          <div class="text">Caption One</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="images/melam2.jpg" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="images/Andiyooot.jpg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="images/SwamyBiksha.jpg" style="width: 100%" />
+          <div class="text">Caption Four</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="images/Thodipooja.jpg" style="width: 100%" />
+          <div class="text">Caption five</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </div>
+    <div class="omm_img-box container">
+      <div class="omm_img">
+        <img src="images/Omm.png" alt="omm picture" />
+      </div>
+    </div>
+
+    <div id="deities">
+      <div class="headline_deities-box">
+        <div class="headline_deities">
+          <p class="heading_deities"><span>SUB </span>DEITIES</p>
+        </div>
+        <div class="headline_border_deities">
+          <img
+            class="headline_deities_low-border container"
+            src="images/low border.png"
+            alt="low border"
+          />
+        </div>
+      </div>
+      <div class="deities_out-box container">
+        <div class="deities_in-box">
+          <div class="god_box">
+            <img src="images/karuppaswamy.jpg" />
+            <div class="layer">
+              <h3>Karuppa<br />Swamy</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="god_box">
+            <img src="images/maduraveeraswamy.jpg" />
+            <div class="layer">
+              <h3>Maduraveera<br />Swamy</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="god_box">
+            <img src="images/bhagavathy.jpg" />
+            <div class="layer">
+              <h3>Bhagavathy</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="omm_img-box container">
+      <div class="omm_img">
+        <img src="images/Omm.png" alt="omm picture" />
+      </div>
+    </div>
+
+    <div id="officials">
+      <div class="headline_officials-box">
+        <div class="headline_officials">
+          <p class="heading_officials"><span>TEMPLE</span> OFFICIALS</p>
+        </div>
+        <div class="headline_border_officials">
+          <img
+            class="headline_officials_low-border container"
+            src="images/low border.png"
+            alt="low border"
+          />
+        </div>
+      </div>
+      <div class="officials_out-box container">
+        <div class="officials_in-box">
+          <div class="officials_box">
+            <img src="images/sundaran poosali.jpg" />
+            <div class="layer">
+              <h3>Sundaran Poosali</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="officials_box">
+            <img src="images/velayudhan poosali.jpg" />
+            <div class="layer">
+              <h3>Velayudhan Poosali</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="officials_box">
+            <img src="images/sankaran poojari 1.jpg" />
+            <div class="layer">
+              <h3>Sankaran Poojari</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="officials_box">
+            <img src="images/Balan poosali.jpg" />
+            <div class="layer">
+              <h3>Balan Poosali</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="omm_img-box container">
+      <div class="omm_img">
+        <img src="images/Omm.png" alt="omm picture" />
+      </div>
+    </div>
+
     <script type="module" src="src/main.js"></script>
     <script src="src/events_slideshow.js"></script>
-</body>
-
+  </body>
 </html>

@@ -5,4 +5,4 @@ import "../styles/components/header.css";
 import "../styles/components/introduction.css";
 import "../styles/components/events.css";
 import "../styles/components/deities.css";
-import "../styles/components/contacts.css";
+import "../styles/components/officials.css";

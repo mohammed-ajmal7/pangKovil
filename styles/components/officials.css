@@ -1,11 +1,11 @@
-#deities {
+#officials {
   background-image: url(../../images/murugan2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.headline_deities {
+.headline_officials {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,38 +13,38 @@
   color: var(--clr-deep-dark-yellow);
 }
 
-.heading_deities {
+.heading_officials {
   font-size: var(--size-xl);
   font-weight: 600;
 }
 
-.heading_deities span {
+.heading_officials span {
   color: var(--clr-light-red);
 }
 
-.headline_deities_low-border {
+.headline_officials_low-border {
   width: 6rem;
   margin-bottom: 1rem;
 }
 
-.deities_out-box {
+.officials_out-box {
   margin-bottom: 3rem;
 }
 
-.deities_in-box {
+.officials_in-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 1rem;
   margin-top: 2rem;
 }
 
-.god_box {
+.officials_box {
   border-radius: 1rem;
   position: relative;
   overflow: hidden;
 }
 
-.god_box img {
+.officials_box img {
   width: 100%;
   border-radius: 1rem;
   display: block;
@@ -76,21 +76,21 @@
   font-weight: 500;
 }
 
-.god_box:hover img {
+.officials_box:hover img {
   transform: scale(1.1);
 }
 
-.god_box:hover .layer {
+.officials_box:hover .layer {
   height: 100%;
 }
 
 /* xs */
 @media (min-width: 475px) {
-  .heading_deities {
+  .heading_officials {
     font-size: var(--size-2xl);
   }
 
-  .headline_deities_low-border {
+  .headline_officials_low-border {
     width: 7rem;
   }
 
@@ -102,11 +102,11 @@
 
 /* sm */
 @media (min-width: 640px) {
-  .heading_deities {
+  .heading_officials {
     font-size: var(--size-3xl);
   }
 
-  .headline_deities_low-border {
+  .headline_officials_low-border {
     width: 12rem;
   }
 
@@ -118,7 +118,7 @@
 
 /* md */
 @media (min-width: 768px) {
-  .heading_deities {
+  .heading_officials {
     font-size: var(--size-4xl);
   }
 
@@ -130,11 +130,11 @@
 
 /* lg */
 @media (min-width: 1024px) {
-  .heading_deities {
+  .heading_officials {
     font-size: var(--size-5xl);
   }
 
-  .headline_deities_low-border {
+  .headline_officials_low-border {
     width: 13rem;
     margin-bottom: 1rem;
   }

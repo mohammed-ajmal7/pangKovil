@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
 #events {
   background-image: url(../../images/murugan2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .headline_events {
   display: flex;
   justify-content: center;
@@ -14,22 +16,26 @@
   margin-top: 1rem;
   color: var(--clr-deep-dark-yellow);
 }
+
 .heading_events {
   font-size: var(--size-xl);
   font-weight: 600;
 }
+
 .heading_events span {
   color: var(--clr-light-red);
 }
+
 .headline_events_low-border {
   width: 6rem;
   margin-bottom: 1rem;
 }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 70rem;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 /* Hide the images by default */
@@ -97,6 +103,7 @@
   from {
     opacity: 0.1;
   }
+
   to {
     opacity: 1;
   }
@@ -107,44 +114,54 @@
   .heading_events {
     font-size: var(--size-2xl);
   }
+
   .headline_events_low-border {
     width: 7rem;
   }
+
   .text {
     font-size: var(--size-lg);
   }
 }
+
 /* sm */
 @media (min-width: 640px) {
   .heading_events {
     font-size: var(--size-3xl);
   }
+
   .headline_events_low-border {
     width: 12rem;
   }
+
   .text {
     font-size: var(--size-xl);
   }
 }
+
 /* md */
 @media (min-width: 768px) {
   .heading_events {
     font-size: var(--size-4xl);
   }
+
   .text {
     font-size: var(--size-2xl);
   }
 }
+
 /* lg */
 @media (min-width: 1024px) {
   .heading_events {
     font-size: var(--size-5xl);
   }
+
   .headline_events_low-border {
     width: 13rem;
     margin-bottom: 1rem;
   }
 }
+
 /* xl */
 /* @media (min-width: 1280px) {} */
 /* xxl */
