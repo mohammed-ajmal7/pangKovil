@@ -4,6 +4,7 @@
   align-items: center;
   margin-top: 1rem;
   color: var(--clr-white);
+  transition: color 0.5s;
 }
 .headline_contact:hover {
   color: var(--clr-light-red);
