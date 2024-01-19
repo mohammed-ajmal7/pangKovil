@@ -6,3 +6,4 @@ import "../styles/components/introduction.css";
 import "../styles/components/events.css";
 import "../styles/components/deities.css";
 import "../styles/components/officials.css";
+import "../styles/components/contact.css";

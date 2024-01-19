@@ -1,6 +1,6 @@
 .intro_box {
   background-color: var(--clr-dark-red);
-  margin: 2rem 0;
+  margin: 12rem 0 3rem 0;
 }
 .intro_box-mini {
   display: flex;
@@ -9,7 +9,7 @@
   align-items: center;
   color: var(--clr-white);
 }
-.headline_imgages {
+.headline_images {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,10 +44,11 @@
   color: var(--clr-white);
 }
 .intro_headline span {
-  color: var(--clr-dark-yellow);
+  color: var(--clr-golden-yellow);
 }
 .intro_para {
-  line-height: 1.5rem;
+  line-height: 1.7rem;
+  word-spacing: 0.1rem;
 }
 .intro_read-btn {
   margin: 1rem 0;
@@ -64,7 +65,7 @@
   transition: transform 0.3s;
 }
 .omm_img:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-1.5rem);
 }
 
 /* xs */
@@ -74,7 +75,7 @@
 /* md */
 @media (min-width: 768px) {
   .intro_box {
-    margin: 3rem 1.5rem;
+    margin: 14rem 1.5rem 3rem 1.5rem;
   }
   .intro_col-2 {
     margin: 1rem;
@@ -100,7 +101,7 @@
 /* lg */
 @media (min-width: 1024px) {
   .intro_box {
-    margin: 3rem 2rem;
+    margin: 14rem 2rem 0 2rem;
   }
   .headline_img {
     width: 27rem;
@@ -113,7 +114,7 @@
 /* xl */
 @media (min-width: 1280px) {
   .intro_box {
-    margin: 3rem 2.5rem;
+    margin: 14rem 2.5rem 0 2.5rem;
   }
   .headline_img {
     width: 30rem;

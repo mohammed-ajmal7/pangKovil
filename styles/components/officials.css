@@ -10,7 +10,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  color: var(--clr-deep-dark-yellow);
+  color: var(--clr-white);
+}
+.headline_officials:hover {
+  color: var(--clr-light-red);
 }
 
 .heading_officials {
@@ -24,18 +27,22 @@
 
 .headline_officials_low-border {
   width: 6rem;
-  margin-bottom: 1rem;
+  max-height: 2rem;
 }
 
 .officials_out-box {
   margin-bottom: 3rem;
+  max-width: 22.8rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  background-color: var(--clr-dark-red);
 }
 
 .officials_in-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 1rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .officials_box {
@@ -51,31 +58,6 @@
   transition: transform 0.5s;
   height: 100%;
 }
-
-.layer {
-  width: 100%;
-  height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), var(--clr-deep-dark-yellow));
-  border-radius: 1rem;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  display: flex;
-  font-size: 1rem;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 2.5rem;
-  transition: height 0.5s;
-}
-
-.layer h3 {
-  font-size: var(--size-base);
-  font-weight: 500;
-}
-
 .officials_box:hover img {
   transform: scale(1.1);
 }
@@ -93,10 +75,9 @@
   .headline_officials_low-border {
     width: 7rem;
   }
-
-  .layer h3 {
-    font-size: var(--size-base);
-    font-weight: 500;
+  .officials_out-box {
+    max-width: 28rem;
+    padding: 2rem 3.7rem;
   }
 }
 
@@ -109,10 +90,9 @@
   .headline_officials_low-border {
     width: 12rem;
   }
-
-  .layer h3 {
-    font-size: var(--size-xl);
-    font-weight: 600;
+  .officials_out-box {
+    max-width: 60rem;
+    padding: 2rem 1rem;
   }
 }
 
@@ -120,11 +100,6 @@
 @media (min-width: 768px) {
   .heading_officials {
     font-size: var(--size-4xl);
-  }
-
-  .layer h3 {
-    font-size: var(--size-2xl);
-    font-weight: 600;
   }
 }
 
@@ -137,11 +112,6 @@
   .headline_officials_low-border {
     width: 13rem;
     margin-bottom: 1rem;
-  }
-
-  .layer h3 {
-    font-size: var(--size-3xl);
-    font-weight: 600;
   }
 }
 

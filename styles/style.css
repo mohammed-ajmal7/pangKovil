@@ -1,20 +1,18 @@
 :root {
-  --clr-orange: #ff6600;
-  --clr-dark-orange: #f0470f;
   --clr-light-red: #ff0000;
+  --clr-ruby-red: #e74c3c;
   --clr-red: #9f0102;
   --clr-dark-red: #7f0101;
-  --clr-yellow: #f0f00f;
-  --clr-dark-yellow: #f3c43e;
+  --clr-dark-orange: #ff4000;
+  --clr-saffron-orange: #ffa500;
+  --clr-emerald-green: #008000;
   --clr-deep-dark-yellow: #f0b40f;
-  --clr-cyan-green: #07ab93;
-  --clr-dark-cyan-green: #06937e;
-  --clr-light-beige: #b3b3b3;
+  --clr-golden-yellow: #ffd54f;
+  --clr-royal-blue: #4169e1;
   --clr-white: #ffffff;
   --clr-black: #000000;
   --clr-grey: #808080;
   --clr-dark-grey: #595959;
-  --clr-deep-dark-grey: #333333;
 
   /* sizes */
   --size-xxs: 0.5rem;
@@ -45,11 +43,7 @@ html {
 
 body {
   font-family: "General Sans", sans-serif;
-  background-color: var(--clr-light-beige);
-  /* background-image: url(../images/murugan2.png);
-  background-size: 50%;
-  background-repeat: repeat-y;
-  background-position: center; */
+  background-color: var(--clr-deep-dark-yellow);
   color: var(--clr-white);
 }
 
