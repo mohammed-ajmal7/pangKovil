@@ -1,6 +1,6 @@
 .intro_box {
   background-color: var(--clr-dark-red);
-  margin: 3rem;
+  margin: 2rem 0.5rem;
 }
 .intro_box-mini {
   display: flex;
@@ -74,6 +74,9 @@
 /* @media (min-width: 640px) {} */
 /* md */
 @media (min-width: 768px) {
+  .intro_box {
+    margin: 3rem 1.5rem;
+  }
   .intro_col-2 {
     margin: 1rem;
   }
@@ -97,6 +100,9 @@
 }
 /* lg */
 @media (min-width: 1024px) {
+  .intro_box {
+    margin: 3rem 2rem;
+  }
   .headline_img {
     width: 27rem;
   }
