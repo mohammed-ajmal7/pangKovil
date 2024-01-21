@@ -1,6 +1,6 @@
 .intro_box {
   background-color: var(--clr-dark-red);
-  margin: 12rem 0 3rem 0;
+  margin: 3rem;
 }
 .intro_box-mini {
   display: flex;
@@ -74,9 +74,6 @@
 /* @media (min-width: 640px) {} */
 /* md */
 @media (min-width: 768px) {
-  .intro_box {
-    margin: 14rem 1.5rem 3rem 1.5rem;
-  }
   .intro_col-2 {
     margin: 1rem;
   }
@@ -100,9 +97,6 @@
 }
 /* lg */
 @media (min-width: 1024px) {
-  .intro_box {
-    margin: 14rem 2rem 0 2rem;
-  }
   .headline_img {
     width: 27rem;
   }
@@ -113,9 +107,6 @@
 }
 /* xl */
 @media (min-width: 1280px) {
-  .intro_box {
-    margin: 14rem 2.5rem 0 2.5rem;
-  }
   .headline_img {
     width: 30rem;
   }

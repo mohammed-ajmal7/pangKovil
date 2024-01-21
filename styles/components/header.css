@@ -1,9 +1,7 @@
 .head_box {
   background-color: var(--clr-dark-red);
   width: 100%;
-  position: fixed;
   top: 0;
-  overflow: hidden;
   z-index: 99;
 }
 .header_one {
@@ -29,7 +27,6 @@
   font-size: var(--size-lg);
   padding-right: var(--size-xs);
 }
-
 .header_two {
   position: relative;
   display: flex;
@@ -41,8 +38,8 @@
 }
 
 .logo {
-  width: 18rem;
-  height: 6rem;
+  width: 16rem;
+  height: 5.4rem;
 }
 
 .header_menu {
@@ -63,32 +60,6 @@
   font-size: var(--size-2xl);
   display: block;
 }
-
-/* nav .fa-solid{
-        display: block;
-        font-size: 25px;
-    }
-    nav ul{
-        background-color: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fa-solid{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    } */
 
 /* xs */
 /* @media (min-width: 475px) {}  */
