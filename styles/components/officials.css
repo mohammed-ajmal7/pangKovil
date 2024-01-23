@@ -12,6 +12,7 @@
   margin-top: 1rem;
   color: var(--clr-white);
   transition: color 0.5s;
+  cursor: pointer;
 }
 .headline_officials:hover {
   color: var(--clr-light-red);
