@@ -15,10 +15,9 @@
   align-items: center;
   margin-top: 1rem;
   color: var(--clr-white);
-  letter-spacing: 0.3rem;
-  transition: all 0.3s;
+  transition: color 0.5s;
 }
-.heading_events:hover {
+.headline_events:hover {
   color: var(--clr-light-red);
 }
 .heading_events {
@@ -84,14 +83,18 @@
 
 /* Caption text */
 .text {
-  color: var(--clr-golden-yellow);
+  color: var(--clr-white);
   font-size: var(--size-base);
   font-weight: 600;
-  padding: 0.5rem 0.75rem;
+  padding: 0.2rem 0.5rem;
   position: absolute;
+  right: 0.5rem;
   bottom: 0.5rem;
-  width: 100%;
+  width: auto;
   text-align: center;
+  background-color: var(--clr-dark-red);
+  border-radius: 3rem;
+  opacity: 0.7;
 }
 
 /* Number text (1/3 etc) */

@@ -11,6 +11,7 @@
   align-items: center;
   margin-top: 1rem;
   color: var(--clr-white);
+  transition: color 0.5s;
 }
 .headline_officials:hover {
   color: var(--clr-light-red);
@@ -64,6 +65,13 @@
 
 .officials_box:hover .layer {
   height: 100%;
+}
+
+.layer p {
+  font-size: var(--size-sm);
+  font-weight: 700;
+  color: var(--clr-light-red);
+  padding-top: 5rem;
 }
 
 /* xs */

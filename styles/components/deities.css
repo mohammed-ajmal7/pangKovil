@@ -4,20 +4,20 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .headline_deities {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
   color: var(--clr-white);
+  transition: color 0.5s;
 }
 .headline_deities:hover {
   color: var(--clr-light-red);
 }
 .heading_deities {
   font-size: var(--size-xl);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .heading_deities span {

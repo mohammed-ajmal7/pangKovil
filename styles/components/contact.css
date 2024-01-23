@@ -62,8 +62,13 @@
 .fa-brands {
   font-size: 1.5rem;
   padding: 0 0.3rem;
+  color: var(--clr-golden-yellow);
+  transition: all 0.3s;
 }
 .fa-brands:hover {
+  color: var(--clr-light-red);
+  cursor: pointer;
+  transform: translateY(-1rem);
 }
 .contact_col-2 {
   width: 100%;
