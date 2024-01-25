@@ -10,8 +10,9 @@
   color: var(--clr-light-red);
 }
 .heading_contact {
-  font-size: var(--size-xl);
-  font-weight: 600;
+  font-size: var(--size-2xl);
+  letter-spacing: 0.2rem;
+  font-weight: bold;
 }
 
 .heading_contact span {
@@ -19,13 +20,10 @@
 }
 
 .headline_contact_low-border {
-  width: 6rem;
+  width: 8rem;
   max-height: 2rem;
 }
 
-#contact {
-  margin-top: 2rem;
-}
 .contact_out-box {
   background-image: url(../../images/murugan2.png);
   background-size: contain;

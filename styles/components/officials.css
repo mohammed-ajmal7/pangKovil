@@ -18,8 +18,9 @@
 }
 
 .heading_officials {
-  font-size: var(--size-xl);
-  font-weight: 600;
+  font-size: var(--size-2xl);
+  letter-spacing: 0.2rem;
+  font-weight: bold;
 }
 
 .heading_officials span {
@@ -27,7 +28,7 @@
 }
 
 .headline_officials_low-border {
-  width: 6rem;
+  width: 12rem;
   max-height: 2rem;
 }
 

@@ -21,8 +21,9 @@
   color: var(--clr-light-red);
 }
 .heading_events {
-  font-size: var(--size-xl);
-  font-weight: 600;
+  font-size: var(--size-2xl);
+  letter-spacing: 0.2rem;
+  font-weight: bold;
 }
 
 .heading_events span {
@@ -30,7 +31,7 @@
 }
 
 .headline_events_low-border {
-  width: 6rem;
+  width: 7rem;
   max-height: 2rem;
 }
 
