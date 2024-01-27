@@ -34,12 +34,28 @@
   width: 7rem;
   max-height: 2rem;
 }
-
+.eve_btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.eve-btn {
+  background-color: var(--clr-red);
+  color: var(--clr-white);
+  font-size: var(--size-lg);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 70rem;
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   border: 0.2rem solid var(--clr-light-red);
   border-radius: 1.5rem;
   padding: 0.2rem;
