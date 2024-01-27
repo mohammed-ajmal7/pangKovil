@@ -1,8 +1,8 @@
-import Inspect from "vite-plugin-inspect";
+import inspect from "vite-plugin-inspect";
 import { resolve } from "path";
 
 export default {
-  plugins: [Inspect()],
+  plugins: [inspect()],
   build: {
     rollupOptions: {
       input: {
