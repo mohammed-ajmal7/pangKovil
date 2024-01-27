@@ -12,7 +12,7 @@
 .heading_contact {
   font-size: var(--size-2xl);
   letter-spacing: 0.2rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .heading_contact span {
