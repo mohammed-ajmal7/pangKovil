@@ -7,7 +7,7 @@ export default {
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        events: resolve(__dirname, "eventseve.html"),
+        events: resolve(__dirname, "./events/eve.html"),
       },
     },
   },
