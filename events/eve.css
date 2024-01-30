@@ -1,0 +1,63 @@
+.eve_out-box {
+  background-color: var(--clr-dark-red);
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.eve_in-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/murugan2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.eve_headline-box {
+  margin-bottom: 1rem;
+}
+.eve_col-1 {
+  border: 0.5rem solid var(--clr-deep-dark-yellow);
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.eve_img {
+  border-radius: 0.5rem;
+}
+.eve_col-2 {
+  margin-bottom: 1.5rem;
+}
+.eve_para {
+  font-size: var(--size-base);
+  word-spacing: 0.1rem;
+  /* letter-spacing: 0.05rem; */
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+/* @media (min-width: 640px) {} */
+/* md */
+@media (min-width: 768px) {
+  .eve_in-box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .eve_headline-box {
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .eve_in-box {
+    padding: 2rem;
+  }
+}
+/* xl */
+/* @media (min-width: 1280px) {} */
+/* xxl */
+/* @media (min-width: 1536px) {} */
