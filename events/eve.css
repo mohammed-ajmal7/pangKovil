@@ -19,13 +19,21 @@
 .eve_headline-box {
   margin-bottom: 1rem;
 }
+.eve_headline {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.eve_headline span {
+  color: var(--clr-golden-yellow);
+}
 .eve_col-1 {
-  border: 0.5rem solid var(--clr-deep-dark-yellow);
-  border-radius: 1rem;
+  border: 0.2rem solid var(--clr-deep-dark-yellow);
+  border-radius: 0.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
-.eve_img {
+.eve_vid {
   border-radius: 0.5rem;
 }
 .eve_col-2 {
@@ -34,7 +42,7 @@
 .eve_para {
   font-size: var(--size-base);
   word-spacing: 0.1rem;
-  /* letter-spacing: 0.05rem; */
+  letter-spacing: 0.05rem;
 }
 
 /* xs */
@@ -46,15 +54,27 @@
   .eve_in-box {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+  }
+  .eve_col-2 {
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
   }
   .eve_headline-box {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 }
 /* lg */
 @media (min-width: 1024px) {
   .eve_in-box {
     padding: 2rem;
+  }
+  .eve_para {
+    font-size: var(--size-lg);
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
   }
 }
 /* xl */

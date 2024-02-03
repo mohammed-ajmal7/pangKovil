@@ -1,6 +1,8 @@
 .intro_box {
   background-color: var(--clr-dark-red);
-  margin: 2rem 0.5rem;
+  margin: 0 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 .intro_box-mini {
   display: flex;

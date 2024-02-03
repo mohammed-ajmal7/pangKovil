@@ -8,6 +8,7 @@ export default {
       input: {
         main: resolve(__dirname, "index.html"),
         events: resolve(__dirname, "./events/eve.html"),
+        about: resolve(__dirname, "./about/abo.html"),
       },
     },
   },
