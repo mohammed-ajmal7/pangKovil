@@ -56,7 +56,6 @@
 .read-btn {
   color: var(--clr-dark-red);
   text-decoration: none;
-  font-weight: 700;
 }
 .omm_img-box {
   display: flex;
